@@ -1,0 +1,170 @@
+/* iPad page specific styles */
+
+.ipad-hero {
+  height: 90vh;
+  min-height: 600px;
+}
+
+.ipad-pro-bg  { background: #000; }
+.ipad-air-bg  { background: #f0f4f8; }
+.ipad-mini-bg { background: #1c1a2e; }
+
+/* Eyebrow label */
+.ipad-eyebrow {
+  font-size: 13px;
+  font-weight: 600;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: rgba(255, 255, 255, 0.55);
+  margin-bottom: 10px;
+}
+
+.ipad-eyebrow--dark {
+  color: #6e6e73;
+}
+
+/* Headlines */
+.ipad-headline {
+  font-size: 56px;
+  letter-spacing: -0.02em;
+  line-height: 1.05;
+}
+
+.ipad-headline--dark {
+  color: #1d1d1f;
+}
+
+/* Subhead overrides for light bg */
+.ipad-subhead--dark {
+  color: #6e6e73;
+}
+
+/* Price */
+.ipad-price {
+  margin-top: 10px;
+  font-size: 19px;
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.ipad-price--dark {
+  color: #6e6e73;
+}
+
+/* Image */
+.ipad-img-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.ipad-img {
+  width: 55%;
+  max-width: 520px;
+  object-fit: contain;
+  margin-top: 4vh;
+  filter: drop-shadow(0 20px 60px rgba(0,0,0,0.35));
+}
+
+/* btn-secondary on light bg */
+.btn-secondary--dark {
+  color: #0071e3 !important;
+  border-color: currentColor;
+}
+
+/* ── Compare section ── */
+.ipad-compare {
+  background: #f5f5f7;
+  padding: 80px 22px;
+  text-align: center;
+}
+
+.ipad-compare-title {
+  font-size: 36px;
+  font-weight: 600;
+  color: #1d1d1f;
+  letter-spacing: -0.01em;
+  margin-bottom: 48px;
+}
+
+.ipad-compare-grid {
+  display: flex;
+  gap: 24px;
+  justify-content: center;
+  flex-wrap: wrap;
+  max-width: 1024px;
+  margin: 0 auto;
+}
+
+.ipad-compare-card {
+  background: #fff;
+  border-radius: 20px;
+  padding: 36px 24px 28px;
+  flex: 1 1 240px;
+  max-width: 300px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  box-shadow: 0 2px 20px rgba(0,0,0,0.06);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.ipad-compare-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 8px 32px rgba(0,0,0,0.10);
+}
+
+.ipad-compare-img {
+  width: 130px;
+  height: 130px;
+  object-fit: contain;
+  margin-bottom: 20px;
+}
+
+.ipad-compare-name {
+  font-size: 20px;
+  font-weight: 600;
+  color: #1d1d1f;
+  margin-bottom: 6px;
+}
+
+.ipad-compare-price {
+  font-size: 15px;
+  color: #6e6e73;
+  margin-bottom: 12px;
+}
+
+.ipad-compare-desc {
+  font-size: 14px;
+  color: #6e6e73;
+  line-height: 1.5;
+  margin-bottom: 24px;
+  flex: 1;
+}
+
+.ipad-compare-btn {
+  width: 100%;
+  padding: 12px;
+  background: #0071e3;
+  color: #fff;
+  border: none;
+  border-radius: 980px;
+  font-size: 14px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: background 0.2s ease, transform 0.1s ease;
+}
+
+.ipad-compare-btn:hover {
+  background: #0077ed;
+}
+
+.ipad-compare-btn:active {
+  transform: scale(0.97);
+}
+
+@media (max-width: 734px) {
+  .ipad-headline { font-size: 36px; }
+  .ipad-compare-grid { gap: 16px; }
+  .ipad-compare-card { max-width: 100%; }
+}

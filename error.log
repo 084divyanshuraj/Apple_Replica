@@ -1,0 +1,123 @@
+
+  [32m[1mVITE[22m v5.4.21[39m  [2mready in [0m[1m2281[22m[2m[0m ms[22m
+
+  [32mΓ₧£[39m  [1mLocal[22m:   [36mhttp://localhost:[1m5173[22m/[39m
+[2m  [32mΓ₧£[39m  [1mNetwork[22m[2m: use [22m[1m--host[22m[2m to expose[22m
+[2m[32m  Γ₧£[39m[22m[2m  press [22m[1mh + enter[22m[2m to show help[22m
+[2m8:47:47 AM[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/components/CartDrawer.jsx[22m
+[2m9:05:50 AM[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/App.jsx[22m
+9:05:50 AM [vite] Internal server error: D:\apple replica\src\App.jsx: Identifier 'Footer' has already been declared. (6:7)
+
+  4 | import Header from './components/Header';
+  5 | import Footer from './components/Footer';
+> 6 | import Footer from './components/Footer';
+    |        ^
+  7 | import CartDrawer from './components/CartDrawer';
+  8 | import Checkout from './pages/Checkout';
+  9 |
+  Plugin: vite:react-babel
+  File: D:/apple replica/src/App.jsx:6:7
+  4  |  import Header from './components/Header';
+  5  |  import Footer from './components/Footer';
+  6  |  import Footer from './components/Footer';
+     |         ^
+  7  |  import CartDrawer from './components/CartDrawer';
+  8  |  import Checkout from './pages/Checkout';
+      at constructor (D:\apple replica\node_modules\@babel\parser\lib\index.js:365:19)
+      at JSXParserMixin.raise (D:\apple replica\node_modules\@babel\parser\lib\index.js:6599:19)
+      at ScopeHandler.checkRedeclarationInScope (D:\apple replica\node_modules\@babel\parser\lib\index.js:1619:19)
+      at ScopeHandler.declareName (D:\apple replica\node_modules\@babel\parser\lib\index.js:1585:12)
+      at JSXParserMixin.declareNameFromIdentifier (D:\apple replica\node_modules\@babel\parser\lib\index.js:7567:16)
+      at JSXParserMixin.checkIdentifier (D:\apple replica\node_modules\@babel\parser\lib\index.js:7563:12)
+      at JSXParserMixin.checkLVal (D:\apple replica\node_modules\@babel\parser\lib\index.js:7500:12)
+      at JSXParserMixin.finishImportSpecifier (D:\apple replica\node_modules\@babel\parser\lib\index.js:14266:10)
+      at JSXParserMixin.parseImportSpecifierLocal (D:\apple replica\node_modules\@babel\parser\lib\index.js:14263:31)
+      at JSXParserMixin.maybeParseDefaultImportSpecifier (D:\apple replica\node_modules\@babel\parser\lib\index.js:14366:12)
+      at JSXParserMixin.parseImportSpecifiersAndAfter (D:\apple replica\node_modules\@babel\parser\lib\index.js:14239:29)
+      at JSXParserMixin.parseImport (D:\apple replica\node_modules\@babel\parser\lib\index.js:14235:17)
+      at JSXParserMixin.parseStatementContent (D:\apple replica\node_modules\@babel\parser\lib\index.js:12876:27)
+      at JSXParserMixin.parseStatementLike (D:\apple replica\node_modules\@babel\parser\lib\index.js:12767:17)
+      at JSXParserMixin.parseModuleItem (D:\apple replica\node_modules\@babel\parser\lib\index.js:12744:17)
+      at JSXParserMixin.parseBlockOrModuleBlockBody (D:\apple replica\node_modules\@babel\parser\lib\index.js:13316:36)
+      at JSXParserMixin.parseBlockBody (D:\apple replica\node_modules\@babel\parser\lib\index.js:13309:10)
+      at JSXParserMixin.parseProgram (D:\apple replica\node_modules\@babel\parser\lib\index.js:12622:10)
+      at JSXParserMixin.parseTopLevel (D:\apple replica\node_modules\@babel\parser\lib\index.js:12612:25)
+      at JSXParserMixin.parse (D:\apple replica\node_modules\@babel\parser\lib\index.js:14488:25)
+      at parse (D:\apple replica\node_modules\@babel\parser\lib\index.js:14522:38)
+      at parser (D:\apple replica\node_modules\@babel\core\lib\parser\index.js:41:34)
+      at parser.next (<anonymous>)
+      at normalizeFile (D:\apple replica\node_modules\@babel\core\lib\transformation\normalize-file.js:64:37)
+      at normalizeFile.next (<anonymous>)
+      at run (D:\apple replica\node_modules\@babel\core\lib\transformation\index.js:22:50)
+      at run.next (<anonymous>)
+      at transform (D:\apple replica\node_modules\@babel\core\lib\transform.js:22:33)
+      at transform.next (<anonymous>)
+      at step (D:\apple replica\node_modules\gensync\index.js:261:32)
+      at D:\apple replica\node_modules\gensync\index.js:273:13
+      at async.call.result.err.err (D:\apple replica\node_modules\gensync\index.js:223:11)
+      at D:\apple replica\node_modules\gensync\index.js:189:28
+      at D:\apple replica\node_modules\@babel\core\lib\gensync-utils\async.js:67:7
+      at D:\apple replica\node_modules\gensync\index.js:113:33
+      at step (D:\apple replica\node_modules\gensync\index.js:287:14)
+      at D:\apple replica\node_modules\gensync\index.js:273:13
+      at async.call.result.err.err (D:\apple replica\node_modules\gensync\index.js:223:11)
+9:05:50 AM [vite] Internal server error: D:\apple replica\src\App.jsx: Identifier 'Footer' has already been declared. (6:7)
+
+  4 | import Header from './components/Header';
+  5 | import Footer from './components/Footer';
+> 6 | import Footer from './components/Footer';
+    |        ^
+  7 | import CartDrawer from './components/CartDrawer';
+  8 | import Checkout from './pages/Checkout';
+  9 |
+  Plugin: vite:react-babel
+  File: D:/apple replica/src/App.jsx:6:7
+  4  |  import Header from './components/Header';
+  5  |  import Footer from './components/Footer';
+  6  |  import Footer from './components/Footer';
+     |         ^
+  7  |  import CartDrawer from './components/CartDrawer';
+  8  |  import Checkout from './pages/Checkout';
+      at constructor (D:\apple replica\node_modules\@babel\parser\lib\index.js:365:19)
+      at JSXParserMixin.raise (D:\apple replica\node_modules\@babel\parser\lib\index.js:6599:19)
+      at ScopeHandler.checkRedeclarationInScope (D:\apple replica\node_modules\@babel\parser\lib\index.js:1619:19)
+      at ScopeHandler.declareName (D:\apple replica\node_modules\@babel\parser\lib\index.js:1585:12)
+      at JSXParserMixin.declareNameFromIdentifier (D:\apple replica\node_modules\@babel\parser\lib\index.js:7567:16)
+      at JSXParserMixin.checkIdentifier (D:\apple replica\node_modules\@babel\parser\lib\index.js:7563:12)
+      at JSXParserMixin.checkLVal (D:\apple replica\node_modules\@babel\parser\lib\index.js:7500:12)
+      at JSXParserMixin.finishImportSpecifier (D:\apple replica\node_modules\@babel\parser\lib\index.js:14266:10)
+      at JSXParserMixin.parseImportSpecifierLocal (D:\apple replica\node_modules\@babel\parser\lib\index.js:14263:31)
+      at JSXParserMixin.maybeParseDefaultImportSpecifier (D:\apple replica\node_modules\@babel\parser\lib\index.js:14366:12)
+      at JSXParserMixin.parseImportSpecifiersAndAfter (D:\apple replica\node_modules\@babel\parser\lib\index.js:14239:29)
+      at JSXParserMixin.parseImport (D:\apple replica\node_modules\@babel\parser\lib\index.js:14235:17)
+      at JSXParserMixin.parseStatementContent (D:\apple replica\node_modules\@babel\parser\lib\index.js:12876:27)
+      at JSXParserMixin.parseStatementLike (D:\apple replica\node_modules\@babel\parser\lib\index.js:12767:17)
+      at JSXParserMixin.parseModuleItem (D:\apple replica\node_modules\@babel\parser\lib\index.js:12744:17)
+      at JSXParserMixin.parseBlockOrModuleBlockBody (D:\apple replica\node_modules\@babel\parser\lib\index.js:13316:36)
+      at JSXParserMixin.parseBlockBody (D:\apple replica\node_modules\@babel\parser\lib\index.js:13309:10)
+      at JSXParserMixin.parseProgram (D:\apple replica\node_modules\@babel\parser\lib\index.js:12622:10)
+      at JSXParserMixin.parseTopLevel (D:\apple replica\node_modules\@babel\parser\lib\index.js:12612:25)
+      at JSXParserMixin.parse (D:\apple replica\node_modules\@babel\parser\lib\index.js:14488:25)
+      at parse (D:\apple replica\node_modules\@babel\parser\lib\index.js:14522:38)
+      at parser (D:\apple replica\node_modules\@babel\core\lib\parser\index.js:41:34)
+      at parser.next (<anonymous>)
+      at normalizeFile (D:\apple replica\node_modules\@babel\core\lib\transformation\normalize-file.js:64:37)
+      at normalizeFile.next (<anonymous>)
+      at run (D:\apple replica\node_modules\@babel\core\lib\transformation\index.js:22:50)
+      at run.next (<anonymous>)
+      at transform (D:\apple replica\node_modules\@babel\core\lib\transform.js:22:33)
+      at transform.next (<anonymous>)
+      at step (D:\apple replica\node_modules\gensync\index.js:261:32)
+      at D:\apple replica\node_modules\gensync\index.js:273:13
+      at async.call.result.err.err (D:\apple replica\node_modules\gensync\index.js:223:11)
+      at D:\apple replica\node_modules\gensync\index.js:189:28
+      at D:\apple replica\node_modules\@babel\core\lib\gensync-utils\async.js:67:7
+      at D:\apple replica\node_modules\gensync\index.js:113:33
+      at step (D:\apple replica\node_modules\gensync\index.js:287:14)
+      at D:\apple replica\node_modules\gensync\index.js:273:13
+      at async.call.result.err.err (D:\apple replica\node_modules\gensync\index.js:223:11)
+[2m9:06:01 AM[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/App.jsx[22m
+[2m9:06:16 AM[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/components/CartDrawer.jsx[22m
+[2m9:06:41 AM[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/pages/Login.jsx[22m
+[2m9:15:48 AM[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/App.jsx[22m
+[2m9:16:08 AM[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/components/Header.jsx[22m
