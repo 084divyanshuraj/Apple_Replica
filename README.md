@@ -96,5 +96,5 @@ This project is built for **educational purposes only** as part of a college fie
 ---
 
 <div align="center">
-Made with ❤️ by the batch | 4th Semester · Full Stack Development
+Made with a lot of code by batch 15| 4th Semester · Full Stack Development
 </div>
