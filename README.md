@@ -33,3 +33,68 @@
 ---
 
 ## 📁 Project Structure
+Apple_Replica/
+├── backend/          # Node.js backend server
+├── public/
+│   └── images/       # Static assets and product images
+├── src/              # React source code
+├── index.html        # Root HTML file
+├── vite.config.js    # Vite configuration
+├── vercel.json       # Vercel deployment config
+└── Start_Apple_Replica.bat  # Windows quick-start script
+
+---
+
+## ⚡ Getting Started
+
+### Prerequisites
+- Node.js (v18+)
+- npm
+
+### Installation & Running Locally
+
+```bash
+# Clone the repository
+git clone https://github.com/084divyanshuraj/Apple_Replica.git
+cd Apple_Replica
+
+# Install dependencies
+npm install
+
+# Start the development server
+npm run dev
+```
+
+> **Windows users:** You can also just double-click `Start_Apple_Replica.bat` to launch the project quickly.
+
+### Build for Production
+
+```bash
+npm run build
+npm run preview
+```
+
+---
+
+## 👨‍💻 Team — Batch Contributors
+
+This project was collaboratively built by our batch as a team effort. 🤝
+
+| GitHub Profile | Role |
+|---|---|
+| [@084divyanshuraj](https://github.com/084divyanshuraj) | Team Lead & Developer |
+| [@HemanthPara1](https://github.com/HemanthPara1) | Developer |
+| [@sudhasreenidhi20](https://github.com/sudhasreenidhi20) | Developer |
+| [@vyshu-mangamuri](https://github.com/vyshu-mangamuri) | Developer |
+
+---
+
+## 📄 License
+
+This project is built for **educational purposes only** as part of a college field project. All Apple trademarks, product names, and imagery belong to **Apple Inc.**
+
+---
+
+<div align="center">
+Made with ❤️ by the batch | 4th Semester · Full Stack Development
+</div>
