@@ -82,7 +82,7 @@ This project was collaboratively built by our batch as a team effort. 🤝
 
 | GitHub Profile | Role |
 |---|---|
-| [@084divyanshuraj](https://github.com/084divyanshuraj) | Team Lead & Developer |
+| [@084divyanshuraj](https://github.com/084divyanshuraj) | Developer |
 | [@HemanthPara1](https://github.com/HemanthPara1) | Developer |
 | [@sudhasreenidhi20](https://github.com/sudhasreenidhi20) | Developer |
 | [@vyshu-mangamuri](https://github.com/vyshu-mangamuri) | Developer |
